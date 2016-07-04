@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93D88F41D29F34D0001AD11 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B93D88F31D29F34D0001AD11 /* main.m */; };
+		B93D88FF1D29F34D0001AD11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B93D88FE1D29F34D0001AD11 /* Assets.xcassets */; };
+		B93D89021D29F34D0001AD11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93D89001D29F34D0001AD11 /* LaunchScreen.storyboard */; };
+		B93D890D1D29F34D0001AD11 /* HQYViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93D890C1D29F34D0001AD11 /* HQYViewControllerTests.m */; };
+		B93D89181D29F34D0001AD11 /* HQYViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93D89171D29F34D0001AD11 /* HQYViewControllerUITests.m */; };
+		B93D89291D29F3740001AD11 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B93D89261D29F3740001AD11 /* AppDelegate.m */; };
+		B93D892A1D29F3740001AD11 /* HQYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93D89281D29F3740001AD11 /* HQYTabBarController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B93D89091D29F34D0001AD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93D88E71D29F34D0001AD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93D88EE1D29F34D0001AD11;
+			remoteInfo = HQYViewController;
+		};
+		B93D89141D29F34D0001AD11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B93D88E71D29F34D0001AD11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B93D88EE1D29F34D0001AD11;
+			remoteInfo = HQYViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B93D88EF1D29F34D0001AD11 /* HQYViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQYViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93D88F31D29F34D0001AD11 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B93D88FE1D29F34D0001AD11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B93D89011D29F34D0001AD11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B93D89031D29F34D0001AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93D89081D29F34D0001AD11 /* HQYViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQYViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93D890C1D29F34D0001AD11 /* HQYViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQYViewControllerTests.m; sourceTree = "<group>"; };
+		B93D890E1D29F34D0001AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93D89131D29F34D0001AD11 /* HQYViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQYViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B93D89171D29F34D0001AD11 /* HQYViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQYViewControllerUITests.m; sourceTree = "<group>"; };
+		B93D89191D29F34D0001AD11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93D89251D29F3740001AD11 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B93D89261D29F3740001AD11 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B93D89271D29F3740001AD11 /* HQYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HQYTabBarController.h; sourceTree = "<group>"; };
+		B93D89281D29F3740001AD11 /* HQYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HQYTabBarController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B93D88EC1D29F34D0001AD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D89051D29F34D0001AD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D89101D29F34D0001AD11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93D88E61D29F34D0001AD11 = {
+			isa = PBXGroup;
+			children = (
+				B93D88F11D29F34D0001AD11 /* HQYViewController */,
+				B93D890B1D29F34D0001AD11 /* HQYViewControllerTests */,
+				B93D89161D29F34D0001AD11 /* HQYViewControllerUITests */,
+				B93D88F01D29F34D0001AD11 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B93D88F01D29F34D0001AD11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B93D88EF1D29F34D0001AD11 /* HQYViewController.app */,
+				B93D89081D29F34D0001AD11 /* HQYViewControllerTests.xctest */,
+				B93D89131D29F34D0001AD11 /* HQYViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B93D88F11D29F34D0001AD11 /* HQYViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B93D89251D29F3740001AD11 /* AppDelegate.h */,
+				B93D89261D29F3740001AD11 /* AppDelegate.m */,
+				B93D89271D29F3740001AD11 /* HQYTabBarController.h */,
+				B93D89281D29F3740001AD11 /* HQYTabBarController.m */,
+				B93D88F21D29F34D0001AD11 /* Supporting Files */,
+			);
+			path = HQYViewController;
+			sourceTree = "<group>";
+		};
+		B93D88F21D29F34D0001AD11 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B93D88FE1D29F34D0001AD11 /* Assets.xcassets */,
+				B93D89001D29F34D0001AD11 /* LaunchScreen.storyboard */,
+				B93D89031D29F34D0001AD11 /* Info.plist */,
+				B93D88F31D29F34D0001AD11 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B93D890B1D29F34D0001AD11 /* HQYViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B93D890C1D29F34D0001AD11 /* HQYViewControllerTests.m */,
+				B93D890E1D29F34D0001AD11 /* Info.plist */,
+			);
+			path = HQYViewControllerTests;
+			sourceTree = "<group>";
+		};
+		B93D89161D29F34D0001AD11 /* HQYViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B93D89171D29F34D0001AD11 /* HQYViewControllerUITests.m */,
+				B93D89191D29F34D0001AD11 /* Info.plist */,
+			);
+			path = HQYViewControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B93D88EE1D29F34D0001AD11 /* HQYViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93D891C1D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewController" */;
+			buildPhases = (
+				B93D88EB1D29F34D0001AD11 /* Sources */,
+				B93D88EC1D29F34D0001AD11 /* Frameworks */,
+				B93D88ED1D29F34D0001AD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HQYViewController;
+			productName = HQYViewController;
+			productReference = B93D88EF1D29F34D0001AD11 /* HQYViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B93D89071D29F34D0001AD11 /* HQYViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93D891F1D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewControllerTests" */;
+			buildPhases = (
+				B93D89041D29F34D0001AD11 /* Sources */,
+				B93D89051D29F34D0001AD11 /* Frameworks */,
+				B93D89061D29F34D0001AD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93D890A1D29F34D0001AD11 /* PBXTargetDependency */,
+			);
+			name = HQYViewControllerTests;
+			productName = HQYViewControllerTests;
+			productReference = B93D89081D29F34D0001AD11 /* HQYViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B93D89121D29F34D0001AD11 /* HQYViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B93D89221D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewControllerUITests" */;
+			buildPhases = (
+				B93D890F1D29F34D0001AD11 /* Sources */,
+				B93D89101D29F34D0001AD11 /* Frameworks */,
+				B93D89111D29F34D0001AD11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B93D89151D29F34D0001AD11 /* PBXTargetDependency */,
+			);
+			name = HQYViewControllerUITests;
+			productName = HQYViewControllerUITests;
+			productReference = B93D89131D29F34D0001AD11 /* HQYViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B93D88E71D29F34D0001AD11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "江城程序猿";
+				TargetAttributes = {
+					B93D88EE1D29F34D0001AD11 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B93D89071D29F34D0001AD11 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B93D88EE1D29F34D0001AD11;
+					};
+					B93D89121D29F34D0001AD11 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B93D88EE1D29F34D0001AD11;
+					};
+				};
+			};
+			buildConfigurationList = B93D88EA1D29F34D0001AD11 /* Build configuration list for PBXProject "HQYViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B93D88E61D29F34D0001AD11;
+			productRefGroup = B93D88F01D29F34D0001AD11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B93D88EE1D29F34D0001AD11 /* HQYViewController */,
+				B93D89071D29F34D0001AD11 /* HQYViewControllerTests */,
+				B93D89121D29F34D0001AD11 /* HQYViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B93D88ED1D29F34D0001AD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D89021D29F34D0001AD11 /* LaunchScreen.storyboard in Resources */,
+				B93D88FF1D29F34D0001AD11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D89061D29F34D0001AD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D89111D29F34D0001AD11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B93D88EB1D29F34D0001AD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D892A1D29F3740001AD11 /* HQYTabBarController.m in Sources */,
+				B93D89291D29F3740001AD11 /* AppDelegate.m in Sources */,
+				B93D88F41D29F34D0001AD11 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D89041D29F34D0001AD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D890D1D29F34D0001AD11 /* HQYViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B93D890F1D29F34D0001AD11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B93D89181D29F34D0001AD11 /* HQYViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B93D890A1D29F34D0001AD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93D88EE1D29F34D0001AD11 /* HQYViewController */;
+			targetProxy = B93D89091D29F34D0001AD11 /* PBXContainerItemProxy */;
+		};
+		B93D89151D29F34D0001AD11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B93D88EE1D29F34D0001AD11 /* HQYViewController */;
+			targetProxy = B93D89141D29F34D0001AD11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B93D89001D29F34D0001AD11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B93D89011D29F34D0001AD11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B93D891A1D29F34D0001AD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B93D891B1D29F34D0001AD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B93D891D1D29F34D0001AD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQYViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B93D891E1D29F34D0001AD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HQYViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B93D89201D29F34D0001AD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HQYViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQYViewController.app/HQYViewController";
+			};
+			name = Debug;
+		};
+		B93D89211D29F34D0001AD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HQYViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HQYViewController.app/HQYViewController";
+			};
+			name = Release;
+		};
+		B93D89231D29F34D0001AD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HQYViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HQYViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B93D89241D29F34D0001AD11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HQYViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.heqingyun.com.HQYViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HQYViewController;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B93D88EA1D29F34D0001AD11 /* Build configuration list for PBXProject "HQYViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93D891A1D29F34D0001AD11 /* Debug */,
+				B93D891B1D29F34D0001AD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B93D891C1D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93D891D1D29F34D0001AD11 /* Debug */,
+				B93D891E1D29F34D0001AD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B93D891F1D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93D89201D29F34D0001AD11 /* Debug */,
+				B93D89211D29F34D0001AD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B93D89221D29F34D0001AD11 /* Build configuration list for PBXNativeTarget "HQYViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B93D89231D29F34D0001AD11 /* Debug */,
+				B93D89241D29F34D0001AD11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B93D88E71D29F34D0001AD11 /* Project object */;
+}
