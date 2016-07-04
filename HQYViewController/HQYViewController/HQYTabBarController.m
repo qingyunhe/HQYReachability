@@ -47,10 +47,11 @@
         x = w * i;
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(x, y, w, h);
+        btn.tag = i;
         [self.tabBar addSubview:btn];
         
+        // 要给选项卡控制器的按钮设置按钮,按钮上的内容是由各个子控制器决定的,首先要拿到子控制器
         UIViewController *vc = self.childViewControllers[i];
-
         [btn setTitle:vc.title forState:UIControlStateNormal];
         [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     }
