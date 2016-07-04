@@ -37,6 +37,10 @@
      [tabBarVc addChildViewController:vc1];
      [tabBarVc addChildViewController:vc2];
      */
+    UIViewController *vc3 = [[UIViewController alloc] init];
+    vc3.view.backgroundColor = [UIColor blueColor];
+    vc3.title = @"第三个控制器";
+    [tabBarVc addChildViewController:vc3];
     
     self.window.rootViewController = tabBarVc;
 
