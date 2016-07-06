@@ -38,6 +38,7 @@
 
     NSInteger count = self.childViewControllers.count;
     
+    
     CGFloat x = 0;
     CGFloat y = 0;
     CGFloat w = [UIScreen mainScreen].bounds.size.width / count;
