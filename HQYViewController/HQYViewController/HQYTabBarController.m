@@ -27,13 +27,16 @@
     CGFloat w = [UIScreen mainScreen].bounds.size.width;
     CGFloat h = 49;
     tabBar.frame = CGRectMake(x, y, w, h);
-
-    [self.view addSubview:tabBar];
     
+    [self.view addSubview:tabBar];
+    // 设置选项卡上的按钮
     [self setButtonForTabBar];
 }
 
 // viewWillAppear方法比viewDidLoad方法先调用,必须在viewWillAppear方法中添加按钮
+/**
+ *  设置选项卡上的按钮
+ */
 - (void)setButtonForTabBar{
 
     NSInteger count = self.childViewControllers.count;
@@ -43,7 +46,6 @@
     CGFloat w = [UIScreen mainScreen].bounds.size.width / count;
     CGFloat h = 49;
     for (NSInteger i = 0; i < count; ++i) {
-
         x = w * i;
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         btn.frame = CGRectMake(x, y, w, h);
