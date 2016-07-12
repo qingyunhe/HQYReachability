@@ -17,6 +17,7 @@
 @implementation HQYTabBarController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
     UIView *tabBar = [[UIView alloc] init];
     self.tabBar = tabBar;
