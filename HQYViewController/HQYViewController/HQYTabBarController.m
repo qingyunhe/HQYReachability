@@ -19,6 +19,7 @@
 - (void)viewDidLoad {
     
     [super viewDidLoad];
+    
     UIView *tabBar = [[UIView alloc] init];
     self.tabBar = tabBar;
     self.view.backgroundColor = [UIColor redColor];
