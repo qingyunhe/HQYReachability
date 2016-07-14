@@ -48,6 +48,7 @@
     CGFloat y = 0;
     CGFloat w = [UIScreen mainScreen].bounds.size.width / count;
     CGFloat h = 49;
+    
     for (NSInteger i = 0; i < count; ++i) {
         x = w * i;
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
