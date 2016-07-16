@@ -23,7 +23,6 @@
     UIView *tabBar = [[UIView alloc] init];
     self.tabBar = tabBar;
     self.view.backgroundColor = [UIColor redColor];
-
     CGFloat x = 0;
     CGFloat y = [UIScreen mainScreen].bounds.size.height - 49;
     CGFloat w = [UIScreen mainScreen].bounds.size.width;
