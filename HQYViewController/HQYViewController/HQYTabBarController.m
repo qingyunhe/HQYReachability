@@ -35,7 +35,6 @@
     [self setButtonForTabBar];
 }
 
-
 // viewWillAppear方法比viewDidLoad方法先调用,必须在viewWillAppear方法中添加按钮
 /**
  *  设置选项卡上的按钮
