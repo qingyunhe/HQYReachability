@@ -40,7 +40,6 @@
  */
 
 - (void)setButtonForTabBar{
-
     NSInteger count = self.childViewControllers.count;
     CGFloat x = 0;
     CGFloat y = 0;
