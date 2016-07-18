@@ -31,7 +31,6 @@
     
     [self.view addSubview:tabBar];
     
-    
     // 设置选项卡上的按钮
     [self setButtonForTabBar];
 }
