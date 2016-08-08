@@ -1,2 +1,2 @@
-# HQYViewController
-自定义UITabBarController,快速搭建主流框架
+# HQYReachability
+一行代码搞定网络状态监测,并跳转到设置相应网络的页面.
