@@ -7,10 +7,12 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
 ##实现过程:
 ### 1 导入SystemConfiguration.framework
 Target -> Bulid Phases
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/Snip20160809_8.png)
+
+[截图见博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
 ### 2 配置项目info的URL Types
 Target -> Info
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/Snip20160809_9.png)
+
+[截图见博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
 ### 3 导入Reachability.h和Reachability.m
 [Reachability.h和Reachability.m下载地址](https://developer.apple.com/library/ios/samplecode/Reachability/Reachability.zip) 
 ### 4 设置窗口的根控制器
@@ -29,7 +31,6 @@ Target -> Info
 }
 
 ```
-/***********************************************/
 
 ### 5 判断网络状态
 

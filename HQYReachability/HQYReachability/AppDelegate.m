@@ -45,7 +45,7 @@
     }
 }
 
-#pragma - mark 检查网络状态
+#pragma - mark 弹出联网状态弹窗
 - (void)checkNetworkStatus:(NSString *) string{
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
