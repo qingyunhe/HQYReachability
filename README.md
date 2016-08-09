@@ -1,9 +1,14 @@
 # HQYReachability
-监测网络状态,并跳转到系统设置页面设置网络.
+监测网络状态,并跳转到系统的设置页面来设置网络.
 
 GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](http://www.heqingyun.com) ｜ Contact me：<developerqingyun@gmail.com>
 
----
+---           
+###版本说明:
+温馨提示:
+苹果官方Demo中 ``` objc + (instancetype)reachabilityForLocalWiFi ```方法已废弃
+![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/Reachability.png)
+
 Version 1.0 实现基本的网络监测的功能
 
 Version 1.1 添加跳转到设置界面的功能
@@ -95,4 +100,4 @@ Target -> Info
 
 ---
 对应博客地址:
-<http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/>
+<http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到系统的设置页/>
