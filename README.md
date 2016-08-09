@@ -53,6 +53,21 @@ Target -> Info
     }
 }
 ```
+### 6 弹出联网状态弹窗
+
+```objc
+- (void)checkNetworkStatus:(NSString *) string{
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *tipButton = [UIAlertAction actionWithTitle:string style:(UIAlertActionStyleCancel) handler:nil];
+    
+    [alertController addAction:tipButton];
+    
+    [self.window.rootViewController presentViewController:alertController animated:YES completion: nil];
+}
+```
+### 7 弹出联网状态弹窗
 
 
 

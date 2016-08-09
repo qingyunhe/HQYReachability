@@ -2,7 +2,7 @@
 //  HQYViewController.m
 //  HQYReachability
 //
-//  Created by 江城程序猿 on 16/8/8.
+//  Created by 江城程序猿 on 16/7/10.
 //  Copyright © 2016年 江城程序猿. All rights reserved.
 //
 
