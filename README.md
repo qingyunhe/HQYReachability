@@ -6,8 +6,14 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
 ---           
 ###版本说明:
 温馨提示:
-苹果官方Demo中 ``` objc + (instancetype)reachabilityForLocalWiFi ```方法已废弃
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/Reachability.png)
+苹果官方Demo中 
+
+ ```objc 
+ + (instancetype)reachabilityForLocalWiFi 
+
+```方法已废弃
+ 
+![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Reachability.png)
 
 Version 1.0 实现基本的网络监测的功能
 
@@ -21,11 +27,17 @@ Version 2.0 支持AFN监测网络状态(最近工作较忙,尚未发布)
 ### 1 导入SystemConfiguration.framework
 Target -> Bulid Phases
 
-[截图见博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
+[博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
+
+![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/framework.png)
+
 ### 2 配置项目info的URL Types
 Target -> Info
 
-[截图见博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
+[博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
+
+![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Url Types.png)
+
 ### 3 导入Reachability.h和Reachability.m
 [Reachability.h和Reachability.m下载地址](https://developer.apple.com/library/ios/samplecode/Reachability/Reachability.zip) 
 ### 4 设置窗口的根控制器
