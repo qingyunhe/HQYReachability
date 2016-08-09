@@ -4,6 +4,14 @@
 GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](http://www.heqingyun.com) ｜ Contact me：<developerqingyun@gmail.com>
 
 ---
+Version 1.0 实现基本的网络监测的功能
+
+Version 1.1 添加跳转到设置界面的功能
+
+Version 2.0 支持AFN监测网络状态(最近工作较忙,尚未发布)
+
+---
+
 ##实现过程:
 ### 1 导入SystemConfiguration.framework
 Target -> Bulid Phases
@@ -69,11 +77,21 @@ Target -> Info
 ```
 ### 7 弹出联网状态弹窗
 
-
-
-
-
-
+```objc
+- (void)connectNetwork:(NSString *) string{
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *tipButton = [UIAlertAction actionWithTitle:string style:(UIAlertActionStyleCancel) handler:^(UIAlertAction * _Nonnull action) {
+        
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"prefs:root=INTERNET_TETHERING"]];
+    }];
+    
+    [alertController addAction:tipButton];
+    
+    [self.window.rootViewController presentViewController:alertController animated:YES completion: nil];
+}
+```
 
 ---
 对应博客地址:
