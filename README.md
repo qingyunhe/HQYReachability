@@ -77,7 +77,7 @@ Target -> Info
     }
 }
 ```
-### 6 弹出联网状态弹窗
+### 6 检查联网状态
 
 ```
 - (void)checkNetworkStatus:(NSString *) string{
