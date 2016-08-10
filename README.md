@@ -7,11 +7,10 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
 ###版本说明:
 温馨提示:
 苹果官方Demo中 
-
- ```objc 
+``` 
  + (instancetype)reachabilityForLocalWiFi 
-
-```方法已废弃
+```
+方法已废弃
  
 ![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Reachability.png)
 
@@ -80,7 +79,7 @@ Target -> Info
 ```
 ### 6 弹出联网状态弹窗
 
-```objc
+```
 - (void)checkNetworkStatus:(NSString *) string{
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
