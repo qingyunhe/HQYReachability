@@ -45,7 +45,7 @@
     }
 }
 
-#pragma - mark 弹出联网状态弹窗
+#pragma - mark 弹出联网状态提醒
 - (void)popUpNetworkStatusNotifications:(NSString *) string{
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
