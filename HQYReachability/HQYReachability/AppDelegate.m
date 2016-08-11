@@ -23,7 +23,7 @@
     [self.window makeKeyAndVisible];
     // 判断网络状态
     [self judgeNetworkStatus];
-
+    
     return YES;
 }
 
@@ -35,10 +35,10 @@
     // 2.判断网络状态
     if ([reachability currentReachabilityStatus] == ReachableViaWiFi) {
         // 当前已连接wifi
-        [self checkNetworkStatus:@"当前已连接wifi"];
+        [self popUpNetworkStatusNotifications:@"当前已连接wifi"];
     } else if ([reachability currentReachabilityStatus] == ReachableViaWWAN) {
         // 没有使用wifi, 正使用蜂窝数据访问网络
-        [self checkNetworkStatus:@"正使用蜂窝网络"];
+        [self popUpNetworkStatusNotifications:@"正使用蜂窝网络"];
     } else {
         // 请打开设置,连接网络
         [self connectNetwork:@"打开设置界面"];
@@ -46,7 +46,7 @@
 }
 
 #pragma - mark 弹出联网状态弹窗
-- (void)checkNetworkStatus:(NSString *) string{
+- (void)popUpNetworkStatusNotifications:(NSString *) string{
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
     

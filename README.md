@@ -6,9 +6,9 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
 ---           
 ###版本说明:
 温馨提示:
-苹果官方Demo中 
+2016年4月份苹果官方监测网络状态的Demo中 
 ``` 
- + (instancetype)reachabilityForLocalWiFi 
+ + (instancetype)reachabilityForLocalWiFi; 
 ```
 方法已废弃
 ![Mou icon](https://github.com/qingyunhe/HQYReachability/blob/master/Reachability.png)
@@ -37,7 +37,7 @@ Target -> Info
 ![Mou icon](https://github.com/qingyunhe/HQYReachability/blob/master/Url%20Types.png)
 
 ### 3 导入Reachability.h和Reachability.m
-[Reachability.h和Reachability.m下载地址](https://developer.apple.com/library/ios/samplecode/Reachability/Reachability.zip) 
+[Reachability.h和Reachability.m下载](https://developer.apple.com/library/ios/samplecode/Reachability/Reachability.zip) 
 ### 4 设置窗口的根控制器
 
 在窗口启动完成的方法中执行下述代码(HQYViewController为主控制器)  
@@ -110,4 +110,4 @@ Target -> Info
 
 ---
 对应博客地址:
-<http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到系统的设置页/>
+<http://www.heqingyun.com/2016/07/10/hqyreachability搞定网络状态监测与网络设置页面的跳转/>
