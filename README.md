@@ -11,7 +11,6 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
  + (instancetype)reachabilityForLocalWiFi 
 ```
 方法已废弃
- 
 ![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Reachability.png)
 
 Version 1.0 实现基本的网络监测的功能
@@ -79,7 +78,7 @@ Target -> Info
 ```
 ### 6 检查联网状态
 
-```
+```objc
 - (void)checkNetworkStatus:(NSString *) string{
     
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"联网状态提醒" message:nil preferredStyle:UIAlertControllerStyleAlert];
