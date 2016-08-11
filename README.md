@@ -11,7 +11,7 @@ GitHub：[何青云](https://github.com/qingyunhe) ｜ Blog：[江城程序猿](
  + (instancetype)reachabilityForLocalWiFi 
 ```
 方法已废弃
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Reachability.png)
+![Mou icon](https://github.com/qingyunhe/HQYReachability/blob/master/Reachability.png)
 
 Version 1.0 实现基本的网络监测的功能
 
@@ -27,14 +27,14 @@ Target -> Bulid Phases
 
 [博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
 
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/framework.png)
+![Mou icon](https://github.com/qingyunhe/HQYReachability/blob/master/framework.png)
 
 ### 2 配置项目info的URL Types
 Target -> Info
 
 [博客](http://www.heqingyun.com/2016/07/10/一行代码搞定网络状态监测并跳转到网络设置页面/)
 
-![Mou icon](/Users/jiangchengchengxuyuan/Desktop/GitHub/HQYReachability/HQYReachability/Url Types.png)
+![Mou icon](https://github.com/qingyunhe/HQYReachability/blob/master/Url%20Types.png)
 
 ### 3 导入Reachability.h和Reachability.m
 [Reachability.h和Reachability.m下载地址](https://developer.apple.com/library/ios/samplecode/Reachability/Reachability.zip) 
